@@ -25,51 +25,72 @@ html {
 .segment:hover {
   cursor: pointer;
 }
+.segment p {
+  transform: rotateZ(5deg) skewY(58deg);
+  margin-top: 140px;
+  width: inherit;
+  text-align: center;
+}
 .red {
   background-color: red;
   transform:  rotateZ(30deg) skewY(-60deg);
+  color: white;
 }
-.redViolet {
+/* .red p {
+  transform: rotateZ(5deg) skewY(58deg);
+  margin-top: 140px;
+  width: inherit;
+  text-align: center;
+} */
+.orange {
   background-color: orange ;
   transform:  rotateZ(60deg) skewY(-60deg);
+  color: white;
 }
-.violet {
+/* .orange p {
+  transform: rotateZ(5deg) skewY(58deg);
+  margin-top: 140px;
+  width: inherit;
+  text-align: center;
+} */
+.yellow {
   background-color: yellow;
   transform:  rotateZ(90deg) skewY(-60deg);
 }
-.blueViolet {
-  background-color: greenyellow;
+.beige {
+  background-color: #eee1c6;
   transform:  rotateZ(120deg) skewY(-60deg);
 }
-.blue {
+.green {
   background-color: green;
   transform:  rotateZ(150deg) skewY(-60deg);
 }
-.blueGreen {
+.blue {
   background-color: blue;
   transform:  rotateZ(180deg) skewY(-60deg);
 }
-.green {
+.darkBlue {
   background-color: darkblue;
   transform:  rotateZ(210deg) skewY(-60deg);
 }
-.yellowGreen {
+.purple {
   background-color: purple;
   transform:  rotateZ(240deg) skewY(-60deg);
 }
-.yellow {
+.black {
   background-color: black;
   transform:  rotateZ(270deg) skewY(-60deg);
+  color: white;
 }
-.yellowOrange {
+.gray {
   background-color:grey ;
   transform:  rotateZ(300deg) skewY(-60deg);
 }
-.orange {
+.white {
   background-color: white;
   transform:  rotateZ(330deg) skewY(-60deg);
 }
-.redOrange {
+.pink {
   background-color: pink;
   transform:  rotateZ(0deg) skewY(-60deg);
 }

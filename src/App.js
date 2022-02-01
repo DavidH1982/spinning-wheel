@@ -25,18 +25,18 @@ function App() {
     <>
     <div>
       <ul className="circleLogo">
-        <li className="segment red" />
-        <li className="segment redViolet" />
-        <li className="segment violet" />
-        <li className="segment blueViolet" />
-        <li className="segment blue" />
-        <li className="segment blueGreen" />
-        <li className="segment green" />
-        <li className="segment yellowGreen" />
-        <li className="segment yellow" />
-        <li className="segment yellowOrange" />
-        <li className="segment orange" />
-        <li className="segment redOrange" />
+        <li className="segment red"><p>Anger</p></li>
+        <li className="segment orange"><p>Energetic</p></li>
+        <li className="segment yellow"><p>Happy</p></li>
+        <li className="segment beige"><p>Soft</p></li>
+        <li className="segment green"><p>Serene</p></li>
+        <li className="segment blue"><p>Calm</p></li>
+        <li className="segment darkBlue"><p>Melancholic</p></li>
+        <li className="segment purple"><p>Spiritual</p></li>
+        <li className="segment black"><p>Powerful</p></li>
+        <li className="segment gray"><p>Sad</p></li>
+        <li className="segment white"><p>Peaceful</p></li>
+        <li className="segment pink"><p>Love</p></li>
       </ul>
     </div>
     <div className="App">
