@@ -1,0 +1,88 @@
+body,
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circleLogo {
+  overflow:hidden;
+  position: relative;
+  margin: 1em auto;
+  padding: 0;
+  width: 32em; height: 32em;
+  border-radius: 50%;
+  list-style: none;
+  animation: spinning-wheel 10s linear infinite;
+}
+.segment {
+  overflow: hidden;
+  position: absolute;
+  top: 0; right: 0;
+  width: 50%; height: 50%;
+  transform-origin: 0% 100%; 
+}
+.segment:hover {
+  cursor: pointer;
+}
+.red {
+  background-color: red;
+  transform:  rotateZ(30deg) skewY(-60deg);
+}
+.redViolet {
+  background-color: orange ;
+  transform:  rotateZ(60deg) skewY(-60deg);
+}
+.violet {
+  background-color: yellow;
+  transform:  rotateZ(90deg) skewY(-60deg);
+}
+.blueViolet {
+  background-color: greenyellow;
+  transform:  rotateZ(120deg) skewY(-60deg);
+}
+.blue {
+  background-color: green;
+  transform:  rotateZ(150deg) skewY(-60deg);
+}
+.blueGreen {
+  background-color: blue;
+  transform:  rotateZ(180deg) skewY(-60deg);
+}
+.green {
+  background-color: darkblue;
+  transform:  rotateZ(210deg) skewY(-60deg);
+}
+.yellowGreen {
+  background-color: purple;
+  transform:  rotateZ(240deg) skewY(-60deg);
+}
+.yellow {
+  background-color: black;
+  transform:  rotateZ(270deg) skewY(-60deg);
+}
+.yellowOrange {
+  background-color:grey ;
+  transform:  rotateZ(300deg) skewY(-60deg);
+}
+.orange {
+  background-color: white;
+  transform:  rotateZ(330deg) skewY(-60deg);
+}
+.redOrange {
+  background-color: pink;
+  transform:  rotateZ(0deg) skewY(-60deg);
+}
+
+@keyframes spinning-wheel {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen {
+  
+}
