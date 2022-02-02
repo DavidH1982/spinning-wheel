@@ -1,5 +1,12 @@
 import "./App.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import {
+  ThemeProvider,
+  theme,
+  ColorModeProvider,
+  CSSReset,
+} from "@chakra-ui/core";
+import Toggle from "./Toggle";
 
 function App() {
   const [song, setSong] = useState({});
@@ -24,8 +31,14 @@ function App() {
   return (
     <>
     <div>
+    <ThemeProvider theme={theme}>
+      <ColorModeProvider>
+        <CSSReset />
+        <Toggle />
+      </ColorModeProvider>
+    </ThemeProvider>
       <ul className="circleLogo">
-        <li className="segment red"><p>Anger</p></li>
+        <li className="segment red"><p>Angry</p></li>
         <li className="segment orange"><p>Energetic</p></li>
         <li className="segment yellow"><p>Happy</p></li>
         <li className="segment green"><p>Serene</p></li>
@@ -34,12 +47,12 @@ function App() {
         <li className="segment purple"><p>Spiritual</p></li>
         <li className="segment blue"><p>Calm</p></li>
         <li className="segment white"><p>Peaceful</p></li>
-        <li className="segment beige"><p>Soft</p></li>
+        <li className="segment beige"><p>Cosy</p></li>
         <li className="segment gray"><p>Sad</p></li>
         <li className="segment black"><p>Powerful</p></li>
       </ul>
     </div>
-    <div className="App">
+    <div className="mediaPlayer">
       <h1>🎵 Moodplayer 🎶</h1>
       <form onSubmit={handleSubmit}>
         <label htmlFor="mood">What mood are you?</label>

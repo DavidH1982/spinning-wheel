@@ -3,9 +3,19 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.page {
+  height: 100vh;
+  width: 100vw;
 }
 
 .circleLogo {
+  top: -20px;
   overflow:hidden;
   position: relative;
   margin: 1em auto;
@@ -14,7 +24,7 @@ html {
   border-radius: 50%;
   list-style: none;
   transform: rotateZ(-120deg);
-  /* animation: spinning-wheel 10s linear infinite; */
+  animation: spinning-wheel 30s linear infinite;
 }
 .segment {
   overflow: hidden;
@@ -37,23 +47,11 @@ html {
   transform:  rotateZ(30deg) skewY(-60deg);
   color: white;
 }
-/* .red p {
-  transform: rotateZ(5deg) skewY(58deg);
-  margin-top: 140px;
-  width: inherit;
-  text-align: center;
-} */
 .orange {
   background-color: #bb3e03 ;
   transform:  rotateZ(60deg) skewY(-60deg);
   color: white;
 }
-/* .orange p {
-  transform: rotateZ(5deg) skewY(58deg);
-  margin-top: 140px;
-  width: inherit;
-  text-align: center;
-} */
 .yellow {
   background-color: #ee9b00;
   transform:  rotateZ(90deg) skewY(-60deg);
@@ -94,6 +92,12 @@ html {
 .pink {
   background-color: #d87cac;
   transform:  rotateZ(180deg) skewY(-60deg);
+}
+
+.mediaPlayer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @keyframes spinning-wheel {
