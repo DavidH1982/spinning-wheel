@@ -13,7 +13,8 @@ html {
   width: 32em; height: 32em;
   border-radius: 50%;
   list-style: none;
-  animation: spinning-wheel 10s linear infinite;
+  transform: rotateZ(-120deg);
+  /* animation: spinning-wheel 10s linear infinite; */
 }
 .segment {
   overflow: hidden;
@@ -32,7 +33,7 @@ html {
   text-align: center;
 }
 .red {
-  background-color: red;
+  background-color: #ae2012;
   transform:  rotateZ(30deg) skewY(-60deg);
   color: white;
 }
@@ -43,7 +44,7 @@ html {
   text-align: center;
 } */
 .orange {
-  background-color: orange ;
+  background-color: #bb3e03 ;
   transform:  rotateZ(60deg) skewY(-60deg);
   color: white;
 }
@@ -54,45 +55,45 @@ html {
   text-align: center;
 } */
 .yellow {
-  background-color: yellow;
+  background-color: #ee9b00;
   transform:  rotateZ(90deg) skewY(-60deg);
 }
 .beige {
-  background-color: #eee1c6;
-  transform:  rotateZ(120deg) skewY(-60deg);
+  background-color: #f3dfc1;
+  transform:  rotateZ(300deg) skewY(-60deg);
 }
 .green {
-  background-color: green;
-  transform:  rotateZ(150deg) skewY(-60deg);
+  background-color: #5da271;
+  transform:  rotateZ(120deg) skewY(-60deg);
 }
 .blue {
-  background-color: blue;
-  transform:  rotateZ(180deg) skewY(-60deg);
-}
-.darkBlue {
-  background-color: darkblue;
-  transform:  rotateZ(210deg) skewY(-60deg);
-}
-.purple {
-  background-color: purple;
+  background-color: #31afd4;
   transform:  rotateZ(240deg) skewY(-60deg);
 }
+.darkBlue {
+  background-color: #005f73;
+  transform:  rotateZ(150deg) skewY(-60deg);
+}
+.purple {
+  background-color: #745c97;
+  transform:  rotateZ(210deg) skewY(-60deg);
+}
 .black {
-  background-color: black;
-  transform:  rotateZ(270deg) skewY(-60deg);
+  background-color: #050505;
+  transform:  rotateZ(0deg) skewY(-60deg);
   color: white;
 }
 .gray {
-  background-color:grey ;
-  transform:  rotateZ(300deg) skewY(-60deg);
-}
-.white {
-  background-color: white;
+  background-color:#696773 ;
   transform:  rotateZ(330deg) skewY(-60deg);
 }
+.white {
+  background-color: #f7f0f0;
+  transform:  rotateZ(270deg) skewY(-60deg);
+}
 .pink {
-  background-color: pink;
-  transform:  rotateZ(0deg) skewY(-60deg);
+  background-color: #d87cac;
+  transform:  rotateZ(180deg) skewY(-60deg);
 }
 
 @keyframes spinning-wheel {

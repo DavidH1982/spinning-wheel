@@ -28,15 +28,15 @@ function App() {
         <li className="segment red"><p>Anger</p></li>
         <li className="segment orange"><p>Energetic</p></li>
         <li className="segment yellow"><p>Happy</p></li>
-        <li className="segment beige"><p>Soft</p></li>
         <li className="segment green"><p>Serene</p></li>
-        <li className="segment blue"><p>Calm</p></li>
         <li className="segment darkBlue"><p>Melancholic</p></li>
-        <li className="segment purple"><p>Spiritual</p></li>
-        <li className="segment black"><p>Powerful</p></li>
-        <li className="segment gray"><p>Sad</p></li>
-        <li className="segment white"><p>Peaceful</p></li>
         <li className="segment pink"><p>Love</p></li>
+        <li className="segment purple"><p>Spiritual</p></li>
+        <li className="segment blue"><p>Calm</p></li>
+        <li className="segment white"><p>Peaceful</p></li>
+        <li className="segment beige"><p>Soft</p></li>
+        <li className="segment gray"><p>Sad</p></li>
+        <li className="segment black"><p>Powerful</p></li>
       </ul>
     </div>
     <div className="App">
