@@ -6,9 +6,9 @@ const Toggle = () => {
 
   return (
     <div>
-      <Flex align="start" justify="space-around" height="50px" width="100vw" direction="column">
-        <Button size="lg" onClick={() => toggleColorMode()}>
-         Toggle Mode {colorMode}
+      <Flex align="start" justify="space-around" height="50px" width="100vw" direction="column" padding="10px" boxSizing="border-box">
+        <Button width="50px" onClick={() => toggleColorMode()}>
+         {colorMode}
         </Button>
       </Flex>
     </div>

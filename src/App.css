@@ -24,7 +24,7 @@ html {
   border-radius: 50%;
   list-style: none;
   transform: rotateZ(-120deg);
-  animation: spinning-wheel 30s linear infinite;
+  animation: spinning-wheel 45s linear infinite;
 }
 .segment {
   overflow: hidden;
@@ -55,26 +55,32 @@ html {
 .yellow {
   background-color: #ee9b00;
   transform:  rotateZ(90deg) skewY(-60deg);
+  color: black;
 }
 .beige {
   background-color: #f3dfc1;
   transform:  rotateZ(300deg) skewY(-60deg);
+  color: black;
 }
 .green {
   background-color: #5da271;
   transform:  rotateZ(120deg) skewY(-60deg);
+  color: black;
 }
 .blue {
   background-color: #31afd4;
   transform:  rotateZ(240deg) skewY(-60deg);
+  color: black;
 }
 .darkBlue {
   background-color: #005f73;
   transform:  rotateZ(150deg) skewY(-60deg);
+  color: black;
 }
 .purple {
   background-color: #745c97;
   transform:  rotateZ(210deg) skewY(-60deg);
+  color: black;
 }
 .black {
   background-color: #050505;
@@ -84,14 +90,17 @@ html {
 .gray {
   background-color:#696773 ;
   transform:  rotateZ(330deg) skewY(-60deg);
+  color: black;
 }
 .white {
   background-color: #f7f0f0;
   transform:  rotateZ(270deg) skewY(-60deg);
+  color: black;
 }
 .pink {
   background-color: #d87cac;
   transform:  rotateZ(180deg) skewY(-60deg);
+  color: black;
 }
 
 .mediaPlayer {
